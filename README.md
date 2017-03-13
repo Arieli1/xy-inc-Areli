@@ -18,9 +18,12 @@ ESTRUTURA DO SISTEMA
 
 /TESTEZUP/SRC/JAVA/CONTROLLER - CLASSE DE CONTROLE DO SISTEMA E DAO
 
-// ARQUIVOS PARA EXECUÇÃO 
+ARQUIVOS PARA EXECUÇÃO 
 
-JDBC MYSQL, PASTA COM FONTE DO SISTEMA (testezup) e arquivo com fonte para criação da tabela no banco de dados.
-O sistema pode ser executado no XAMPP, com o servidor tomcat.
-
- 
+ABRIR NETBEANS 
+Clicar em Arquivo - Importar projeto - de zip e escolher o arquivo testezupit.
+Adicionar o jar do mysql (arquivo em anexo) ao projeto.Botão direito em cima da pasta Biblioteca- Adicionar JAR/PASTA.
+No Netbeans, clicar em ferramentas - Servidor e adicionar servidor Glassfish.
+Abrir XAMPP, clicar em start apache e mysql. Na opção Mysql clicar em administrador e esperar abrir o navegador, criar uma database chamada zup . O script de banco de dados esta em anexo, so executar o mesmo.Informações de conexação do banco esta na classe Conexao na pasta model.
+Executar a classe conexao para validar a conexão com o banco.
+Depois botão direito em cima do projeto e e clicar em executar. A URL localhost:8080/testezup/index.jsp
